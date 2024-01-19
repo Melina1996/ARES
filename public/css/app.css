@@ -13581,22 +13581,16 @@ main {
   align-items: center;
   justify-content: center;
 }
-main .my-container {
+main #my-container {
   width: 80%;
-  height: 100%;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
-main .my-container .my-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-main .my-container .my-line .my-square {
+main #my-container .my-square {
   background-color: white;
   height: 20px;
   width: 20px;
