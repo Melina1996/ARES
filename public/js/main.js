@@ -14,7 +14,7 @@ for (let i = 0; i <= 407; i++) {
 }
 
 
-//all the colors with effect
+//stock the style-properties of my colors into variables
 let blue = ["box-shadow: 0px 0px 50px 10px #3286c0;", "background-color: #3286c0;"]
 
 let green = ["0px 0px 105px 45px rgba(45,255,196,0.9);", "background-color: #3b7a4b;"]
