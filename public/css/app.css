@@ -11913,7 +11913,7 @@ main #my-container .my-square {
   height: 20px;
   width: 20px;
 }
-main #my-container .someClass {
+main #my-container .fading {
   animation: fade 3s ease forwards;
 }
 @keyframes fade {
